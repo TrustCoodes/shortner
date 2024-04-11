@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.trustbycode</groupId>
 	<artifactId>shortner</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>shortner for links</name>
 	<description>Website Link Shortner </description>
 	<properties>
@@ -35,6 +35,12 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
